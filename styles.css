@@ -11,7 +11,10 @@ h1, h2, h3, h4, h5, h6, span {
     text-align: center;
     line-height: 1.25; 
 }
-
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 p {
     line-height: 1.5;
     font-size: 16px;
@@ -29,6 +32,9 @@ li {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+}
+.text--purple {
+    color:rgb(97, 4, 143) ;
 }
 
 /*NAVIGATION BAR*/
@@ -78,19 +84,32 @@ display: flex;
     display: flex;
     flex-direction: column;
 }
+.about-me__info--title{
+    color: black;
+}
 .about-me__info--container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
 .about-me__picture--mask {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    overflow: hidden;  
+    overflow: hidden;
+    box-shadow: 0 8px rgba(0, 0 ,0 , 0.08);
+    margin-bottom: 28px;  
     
 }
 .about-me__picture {
     width: 100%;
+    
+}
+.about-me__info--para {
+    font-size: 18px;
+    margin-bottom: 28px;
 }
