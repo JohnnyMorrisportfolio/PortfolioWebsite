@@ -113,3 +113,21 @@ display: flex;
     font-size: 18px;
     margin-bottom: 28px;
 }
+.about-me__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px;
+
+    
+}
+
+.about-me__link {
+    font-size: 40px;
+    padding: 0 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
