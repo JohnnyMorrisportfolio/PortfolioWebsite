@@ -5,9 +5,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+
+    
 }
 h1, h2, h3, h4, h5, h6, span {
-    color:rgb(97, 4, 143);
+    color:rgb(6, 0, 9);
     text-align: center;
     line-height: 1.25; 
 }
@@ -27,6 +30,7 @@ li {
 }
 .flex-1 {
    flex: 1;
+   
 }
 .row {
     width: 100%;
@@ -120,7 +124,7 @@ display: flex;
     align-items: center;
     text-decoration: none;
     margin: 0 10px;
-
+    
     
 }
 
@@ -132,4 +136,82 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.about-me__img--container{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.about-me__img{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* Tech - Stack */
+#languages {
+    width: auto;
+    background-color:#dbdbdb;
+    min-width: 750px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.language__img {
+    display: flex;
+    width: 750px;
+    max-width: 100px;
+    flex-wrap: wrap;
+    justify-content: row;
+}
+.language__img:hover {
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
+
+}
+.languages {
+    width: 25%;
+    
+     
+}
+.language__img--wrapper {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+.language__list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Projects */
+#projects {
+    max-width: 750px;    
+    display: flex;
+    
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+.project__list {
+    width: 100px;
+    
+}
+.project__img--wrapper {
+    width:10px;
+    
+}
+.project__img {
+    width: fit-content;
 }
